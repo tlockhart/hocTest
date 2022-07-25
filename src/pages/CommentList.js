@@ -52,8 +52,8 @@ class  CommentList extends Component {
         return (
           <div>
             <b>This is Example1: Direct call to Comment display component, from CommentList.</b>
-            {this.state.comments.map((comment) => (
-              <Comment comment={comment} key={comment.id} />
+            {this.state.comments.map((comment, index) => (
+              <Comment comment={comment} key={comment.id} color={this.props.color[index]}/>
             ))}
           </div>
         );
