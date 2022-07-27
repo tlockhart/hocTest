@@ -9,7 +9,10 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000/withSubscription](http://localhost:3000) to view it in your browser.
+[http://localhost:3000](http://localhost:3000) - Prints CommentList
+[http://localhost:3000/withSubscription](http://localhost:3000/withSubscription) - Prints CommentList with HOC for individual colors
+[http://localhost:3000/form](http://localhost:3000/form) - Passes in a react-select component into a form with attributes.
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.

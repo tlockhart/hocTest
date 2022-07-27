@@ -1,4 +1,4 @@
-import CommentList from "./CommentList";
+import CommentList from "../pages/CommentList";
 import data from "../utils/data";
 import modelClass from "../utils/Model";
 import SuperCommentList from "../utils/SuperCommentList";
